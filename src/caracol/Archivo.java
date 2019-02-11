@@ -1,4 +1,3 @@
-
 package caracol;
 
 import java.io.*;
@@ -22,8 +21,8 @@ public class Archivo {
                 Enrollar e = new Enrollar(vector);
             }
         } catch (Exception e) {
-            System.out.println("fin");
+            System.out.println("");
         }
    }
-    
+   
 }

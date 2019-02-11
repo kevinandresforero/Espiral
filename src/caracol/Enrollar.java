@@ -2,7 +2,6 @@
     
  */
 package caracol;
-
 import static java.lang.Float.floatToIntBits;
 /**
  *
@@ -14,16 +13,23 @@ public class Enrollar {
         double r = (double) Math.sqrt(v) ;
         int exeso = 0 ;
         if(r%1 == 0){
-            int temporal = (int) r;
-            
-                    System.out.println(temporal);
-            
+            for(int i=0; i<vector.length;i++){
+                System.out.println(v);
+            }
+                                
         }else{
             int temp = floatToIntBits((int) r);
             r++;
-            exeso = temp - v;
-            
-            System.out.println(exeso);
+            exeso = temp - v ;
+            int crece = vector.length + exeso ;
+            String Vtemp[] = null ;
+            for(int i=0; i < crece ;i++){
+                if(i>vector.length){
+                    Vtemp[i] = "0" ;
+                }else{
+                    
+                }
+            }      
         }
     }
 }
