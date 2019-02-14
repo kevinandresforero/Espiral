@@ -1,10 +1,13 @@
 package caracol;
+
+import java.io.IOException;
+
 /*
-    flata terminar l clase enrrollar, metodo para imprimir el arreglo en espiral
+    
 */
 public class Caracol {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         
         Archivo archi = new Archivo();
         archi.leer("Archivo.txt");
